@@ -1,0 +1,97 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Open Sans", sans-serif;
+  }
+  body {
+    display: flex;
+  }
+  
+  header {
+    background: darkcyan;
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  main {
+    background-color: darkgray;
+    width: 80vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 100px;
+  }
+  
+  img.foto-perfil {
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    margin-bottom: 30px;
+  }
+  
+  ul {
+    list-style: none;
+  }
+  ul.lista-links li {
+    margin-bottom: 10px;
+    font-size: 20px;
+    text-align: center;
+  }
+  ul.lista-redes-sociais {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+  }
+  ul.lista-redes-sociais li img {
+    width: 40px;
+    margin: 0 10px; /*0 superior e inferior | 10px direita e esquerda */
+  }
+  a {
+    text-decoration: none;
+  }
+  section.dados-pessoais {
+    width: 700px;
+    height: 200px;
+    background-color: darkgrey;
+    text-align: center;
+  }
+  div.container {
+    background-color: darkcyan;
+    height: 40px;
+    width: 200px;
+    text-align: center;
+  }
+  p{font-size: 30px;
+    color: antiquewhite;
+
+  }
+  .sobre{
+    color: darkgrey;
+  }
+  .sobre1{
+    width: 800px;
+    height: 300px;
+    text-align: justify;
+    font-size: medium;
+    color: darkblue;
+  }
+  .conhecimento{
+    width: 800px;
+    height: 300px;
+    text-align: justify;
+    font-size: medium;
+    color: darkblue;
+    list-style: upper-alpha;
+  }
+  .objetivo{
+    width: 800px;
+    height: 300px;
+    text-align: justify;
+    font-size: medium;
+    color: darkblue;
+  }
+ 
